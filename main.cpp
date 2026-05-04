@@ -13,6 +13,7 @@ int main() {
     cin >> n >> m;
 
     int minMoves = (n + 1) / 2;
+    
     int answer = ((minMoves + m - 1) / m) * m;
 
     if (answer <= n) {
